@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Monopoly Register</string>
+    <string name="Name">name</string>
+    <string name="loginString">Login</string>
+    <string name="signUpButton">Sign Up!</string>
+    <string name="property">Properties</string>
+    <string name="Cash" />
+    <string name="money">Cash</string>
+    <string name="bankString">Bank:</string>
+    <string name="userCash">Your Cash:</string>
+    <string name="loan">Bank Loans:</string>
+    <string name="menu">Menu</string>
+    <string name="freeParking">Free Parking</string>
+    <string name="joinString">Join!</string>
+    <string name="newGame">New Game:</string>
+    <string name="newGameString">New Game!</string>
+</resources>
