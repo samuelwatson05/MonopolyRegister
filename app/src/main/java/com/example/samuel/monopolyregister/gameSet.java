@@ -1,5 +1,6 @@
 package com.example.samuel.monopolyregister;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -27,7 +28,8 @@ public class gameSet extends AppCompatActivity {
             public void onClick(View v) {
 
                 newGameID = newGame.getText().toString();
-                // put extra into new activity and then push that into firebase either here or there... by that URL
+                Intent i=new Intent(gameSet.this, MainActivity.class);
+                i.putExtra("gameID", newGameID);
 
             }
         });
@@ -38,6 +40,8 @@ public class gameSet extends AppCompatActivity {
             public void onClick(View v) {
 
                 joinGameID = joinGame.getText().toString();
+                Intent i=new Intent(gameSet.this, MainActivity.class);
+                i.putExtra("gameID", joinGameID);
             }
         });
 
